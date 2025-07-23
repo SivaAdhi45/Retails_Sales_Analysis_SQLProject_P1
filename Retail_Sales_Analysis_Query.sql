@@ -16,11 +16,9 @@ Create table Retail_sales
               Quantity int,
               Price_Per_Unit float,
               Cogs float,
-              Total_Sale float
-			);
-            
-Alter table retail_sales
-add primary key (Transactions_id);
+              Total_Sale float,
+	      Primary key (Transactions_id)
+	     );
 
 select count(*) from retail_sales;
 
